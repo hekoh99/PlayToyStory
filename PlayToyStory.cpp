@@ -398,7 +398,7 @@ int main()
             explain2->enter();
             adventurePlaying = false;
 
-            // 1단계가 끝나고 다음 단계로 넘어가면 이전 단계 상황 리셋
+            // 1단계가 끝나고 다음 단계로 넘어가면 이전 단계 상황 리셋 하기
             Woody->hide();
             Forky->hide();
         }
